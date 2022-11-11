@@ -28,8 +28,9 @@ class MyExtension {
           text: 'wind speed'
         }
         {
-         opcode: 'sunny'
-
+         opcode: 'sunny',
+         blockType: Scratch.BlockType.BOOLEAN,
+         text: 'sunny?'
 
         }
       ]
@@ -44,6 +45,9 @@ class MyExtension {
     // If you have to perform an asynchronous action like a request, just return a Promise.
     // The block will wait until the Promise resolves and return the resolved value.
     return '0.98';
+  }
+  sunny(){
+    return 'true';
   }
 }
 
