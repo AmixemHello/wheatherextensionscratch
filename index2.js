@@ -27,6 +27,11 @@ class MyExtension {
           blockType: Scratch.BlockType.REPORTER,
           text: 'wind speed'
         }
+        {
+         opcode: 'sunny'
+
+
+        }
       ]
     };
   }
